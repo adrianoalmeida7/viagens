@@ -7,8 +7,8 @@ class ViagensController < ApplicationController
   end
   
   def create
-    @pessoa = Neo4j.load_node params[:pessoa_id]
-    @lugar = Neo4j.load_node params[:lugar_id]
+    @pessoa = Neo4j.load_node params[:pessoa][:pessoa_id]
+    @lugar = Neo4j.load_node params[:lugar][:lugar_id]
     puts "Ligando: #{@pessoa.nome} com #{@lugar.cidade}"
     @pessoa.viajou_para << @lugar
     

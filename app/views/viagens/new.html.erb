@@ -2,23 +2,15 @@
 
 	<% form_tag viagens_path, :method => :post do -%>
 		<p>
-		Pessoa: <select name='pessoa_id'>
-			<% for pessoa in @pessoas %>
-				<option value='<%=h pessoa.neo_id%>'><%=pessoa.nome%></option>
-			<% end %>
-		</select>
+		Pessoa: <%= collection_select(:pessoa, :pessoa_id, @pessoas, :neo_id, :nome, {:prompt => true}) %>
 		</p>
 		
 		<p>
-			Lugar: <select name='lugar_id'>
-				<% for lugar in @lugares %>
-					<option value='<%=h lugar.neo_id%>'><%=lugar.cidade%></option>
-				<% end %>
-			</select>	
+			Lugar: <%= collection_select(:lugar, :lugar_id, @lugares, :neo_id, :cidade, {:prompt => true}) %>
 		</p>
 		
 		<p>
-			<input type="submit" value="Gravar">
+			<%=submit_tag 'Gravar' %>
 		</p>
    <% end %>
 
