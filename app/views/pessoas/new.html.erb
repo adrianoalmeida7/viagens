@@ -1,0 +1,18 @@
+<h1>New Pessoa</h1>
+
+   <% form_for(@pessoa) do |f| %>
+     <p>
+       <%= f.label :nome %><br />
+       <%= f.text_field :nome %>
+     </p>
+     <p>
+       <%= f.label :data_nascimento %><br />
+       <%= f.text_field :data_nascimento %>
+     </p>
+     <p>
+       <%= f.submit "Update" %>
+     </p>
+
+   <% end %>
+
+   <%= link_to 'Back', pessoas_path %>

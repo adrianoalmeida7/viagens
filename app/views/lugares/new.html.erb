@@ -1,0 +1,18 @@
+<h1>New Lugar</h1>
+
+   <% form_for(@lugar) do |f| %>
+     <p>
+       <%= f.label :cidade %><br />
+       <%= f.text_field :cidade %>
+     </p>
+     <p>
+       <%= f.label :pais %><br />
+       <%= f.text_field :pais %>
+     </p>
+     <p>
+       <%= f.submit "Update" %>
+     </p>
+
+   <% end %>
+
+   <%= link_to 'Back', lugares_path %>

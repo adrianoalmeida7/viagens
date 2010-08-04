@@ -1,0 +1,21 @@
+<h1>Listing lugares</h1>
+
+<table>
+  <tr>
+    <th>Cidade</th>
+    <th>País</th>
+  </tr>
+
+  <% for lugar in @lugares %>
+    <tr>
+      <td><%= lugar.neo_id %> -- <%=h lugar.cidade %></td>
+      <td><%=h lugar.pais %></td>
+      <td><%= link_to 'Edit', edit_lugar_path(lugar) %></td>
+      <td><%= link_to 'Destroy', lugar, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<br />
+
+<%= link_to 'New lugar', new_lugar_path %>

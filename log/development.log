@@ -1,0 +1,1737 @@
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:26:24) [GET]
+
+NoMethodError (undefined method `neo4j_tx' for #<PessoasController:0x3afa43e8>):
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (86.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:26:42) [GET]
+
+NameError (uninitialized constant Pessoa::Neo4J):
+  app/models/pessoa.rb:2
+  app/models/pessoa.rb:380:in `load'
+  app/controllers/pessoas_controller.rb:5:in `index'
+  app/controllers/pessoas_controller.rb:71:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (290.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:29:30) [GET]
+Rendering pessoas/index
+Completed in 299ms (View: 276 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:29:39) [GET]
+
+NameError (uninitialized constant Pessoa::Neo4J):
+  app/models/pessoa.rb:2
+  app/models/pessoa.rb:380:in `load'
+  app/controllers/pessoas_controller.rb:5:in `index'
+  app/controllers/pessoas_controller.rb:71:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (261.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:29:47) [GET]
+Rendering pessoas/index
+Completed in 29ms (View: 5 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:30:00) [GET]
+Rendering pessoas/index
+Completed in 35ms (View: 19 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#new (for 127.0.0.1 at 2010-08-03 21:30:02) [GET]
+Rendering pessoas/new
+
+ActionView::TemplateError (undefined local variable or method `actors_path' for #<ActionView::Base:0x17cb4a6a>) on line #14 of app/views/pessoas/new.html.erb:
+11: 
+12:    <% end %>
+13: 
+14:    <%= link_to 'Back', actors_path %>
+
+    app/views/pessoas/new.html.erb:14
+    app/controllers/pessoas_controller.rb:71:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (256.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#new (for 127.0.0.1 at 2010-08-03 21:30:10) [GET]
+Rendering pessoas/new
+Completed in 53ms (View: 29 | 200 OK [http://localhost/pessoas/new]
+
+
+Processing PessoasController#create (for 127.0.0.1 at 2010-08-03 21:30:18) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa"=>{"nome"=>"Adriano Almeida"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/pessoas
+Completed in 80ms | 302 Found [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:30:19) [GET]
+Rendering pessoas/index
+Completed in 41ms (View: 29 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:30:54) [GET]
+Rendering pessoas/index
+Completed in 94ms (View: 64 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:30:57) [GET]
+Rendering pessoas/index
+Completed in 46ms (View: 28 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#new (for 127.0.0.1 at 2010-08-03 21:30:58) [GET]
+Rendering pessoas/new
+
+ActionView::TemplateError (undefined method `data_nasciment' for #<struct Neo4j::PessoaValueObject nome=nil, data_nascimento=nil>) on line #10 of app/views/pessoas/new.html.erb:
+7:      </p>
+8:      <p>
+9:        <%= f.label :data_nasciment %><br />
+10:        <%= f.text_field :data_nasciment %>
+11:      </p>
+12:      <p>
+13:        <%= f.submit "Update" %>
+
+    app/views/pessoas/new.html.erb:10
+    app/views/pessoas/new.html.erb:3
+    app/controllers/pessoas_controller.rb:71:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (163.0ms)
+Rendered rescues/_request_and_response (8.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#new (for 127.0.0.1 at 2010-08-03 21:31:10) [GET]
+Rendering pessoas/new
+Completed in 103ms (View: 84 | 200 OK [http://localhost/pessoas/new]
+
+
+Processing PessoasController#create (for 127.0.0.1 at 2010-08-03 21:31:36) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa"=>{"nome"=>"David Paniz", "data_nascimento"=>"11/03/1984"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/pessoas
+Completed in 41ms | 302 Found [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:31:36) [GET]
+Rendering pessoas/index
+Completed in 75ms (View: 63 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:32:02) [GET]
+Rendering pessoas/index
+Completed in 1194ms (View: 829 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:33:01) [GET]
+Rendering pessoas/index
+Completed in 103ms (View: 88 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#destroy (for 127.0.0.1 at 2010-08-03 21:33:06) [DELETE]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "id"=>"3"}
+
+NoMethodError (undefined method `del' for nil:NilClass):
+  app/controllers/pessoas_controller.rb:20:in `destroy'
+  app/controllers/pessoas_controller.rb:76:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (343.0ms)
+Rendered rescues/_request_and_response (28.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:34:29) [GET]
+Rendering pessoas/index
+Completed in 49ms (View: 35 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#destroy (for 127.0.0.1 at 2010-08-03 21:34:32) [DELETE]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "id"=>"3"}
+Redirected to http://localhost:3000/pessoas
+Completed in 414ms | 302 Found [http://localhost/pessoas/3]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:34:33) [GET]
+Rendering pessoas/index
+Completed in 50ms (View: 27 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:42:25) [GET]
+Rendering pessoas/index
+Completed in 72ms (View: 42 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:42:27) [GET]
+Rendering pessoas/index
+Completed in 51ms (View: 29 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#new (for 127.0.0.1 at 2010-08-03 21:42:34) [GET]
+Rendering pessoas/new
+Completed in 150ms (View: 96 | 200 OK [http://localhost/pessoas/new]
+
+
+Processing PessoasController#create (for 127.0.0.1 at 2010-08-03 21:42:41) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa"=>{"nome"=>"David Paniz", "data_nascimento"=>""}, "commit"=>"Update"}
+Redirected to http://localhost:3000/pessoas
+Completed in 345ms | 302 Found [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:42:41) [GET]
+Rendering pessoas/index
+Completed in 76ms (View: 43 | 200 OK [http://localhost/pessoas]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:56:18) [GET]
+Rendering lugares/index
+Completed in 656ms (View: 307 | 200 OK [http://localhost/lugares]
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:56:21) [GET]
+Rendering lugares/new
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #3 of app/views/lugares/new.html.erb:
+1: <h1>New Lugar</h1>
+2: 
+3:    <% form_for(@cidade) do |f| %>
+4:      <p>
+5:        <%= f.label :cidade %><br />
+6:        <%= f.text_field :cidade %>
+
+    app/views/lugares/new.html.erb:3
+    app/controllers/lugares_controller.rb:29:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (457.0ms)
+Rendered rescues/_request_and_response (30.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:56:41) [GET]
+Rendering lugares/new
+Completed in 346ms (View: 318 | 200 OK [http://localhost/lugares/new]
+
+
+Processing LugaresController#create (for 127.0.0.1 at 2010-08-03 21:56:45) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "lugar"=>{"cidade"=>"Natal", "pais"=>"Brasil"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/lugares
+Completed in 702ms | 302 Found [http://localhost/lugares]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:56:46) [GET]
+Rendering lugares/index
+
+ActionView::TemplateError (undefined local variable or method `pessoa' for #<ActionView::Base:0x21e8bf76>) on line #13 of app/views/lugares/index.html.erb:
+10:     <tr>
+11:       <td><%= lugar.neo_id %> -- <%=h lugar.cidade %></td>
+12:       <td><%=h lugar.pais %></td>
+13:       <td><%= link_to 'Edit', edit_lugar_path(pessoa) %></td>
+14:       <td><%= link_to 'Destroy', pessoa, :confirm => 'Are you sure?', :method => :delete %></td>
+15:     </tr>
+16:   <% end %>
+
+    app/views/lugares/index.html.erb:13
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:100:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    app/views/lugares/index.html.erb:9
+    app/controllers/lugares_controller.rb:29:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (362.0ms)
+Rendered rescues/_request_and_response (6.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:57:15) [GET]
+Rendering lugares/index
+Completed in 81ms (View: 42 | 200 OK [http://localhost/lugares]
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:57:29) [GET]
+Rendering lugares/new
+Completed in 59ms (View: 36 | 200 OK [http://localhost/lugares/new]
+
+
+Processing LugaresController#create (for 127.0.0.1 at 2010-08-03 21:57:37) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "lugar"=>{"cidade"=>"Brasília", "pais"=>"Brasil"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/lugares
+Completed in 108ms | 302 Found [http://localhost/lugares]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:57:37) [GET]
+Rendering lugares/index
+Completed in 67ms (View: 38 | 200 OK [http://localhost/lugares]
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:57:39) [GET]
+Rendering lugares/new
+Completed in 57ms (View: 20 | 200 OK [http://localhost/lugares/new]
+
+
+Processing LugaresController#create (for 127.0.0.1 at 2010-08-03 21:57:46) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "lugar"=>{"cidade"=>"Toronto", "pais"=>"Canadá"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/lugares
+Completed in 44ms | 302 Found [http://localhost/lugares]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:57:47) [GET]
+Rendering lugares/index
+Completed in 101ms (View: 55 | 200 OK [http://localhost/lugares]
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:57:50) [GET]
+Rendering lugares/new
+Completed in 36ms (View: 14 | 200 OK [http://localhost/lugares/new]
+
+
+Processing LugaresController#create (for 127.0.0.1 at 2010-08-03 21:57:54) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "lugar"=>{"cidade"=>"Roma", "pais"=>"Itália"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/lugares
+Completed in 47ms | 302 Found [http://localhost/lugares]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:57:54) [GET]
+Rendering lugares/index
+Completed in 108ms (View: 70 | 200 OK [http://localhost/lugares]
+
+
+Processing LugaresController#new (for 127.0.0.1 at 2010-08-03 21:57:55) [GET]
+Rendering lugares/new
+Completed in 105ms (View: 55 | 200 OK [http://localhost/lugares/new]
+
+
+Processing LugaresController#create (for 127.0.0.1 at 2010-08-03 21:58:01) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "lugar"=>{"cidade"=>"Paris", "pais"=>"França"}, "commit"=>"Update"}
+Redirected to http://localhost:3000/lugares
+Completed in 48ms | 302 Found [http://localhost/lugares]
+
+
+Processing LugaresController#index (for 127.0.0.1 at 2010-08-03 21:58:01) [GET]
+Rendering lugares/index
+Completed in 107ms (View: 88 | 200 OK [http://localhost/lugares]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 21:58:07) [GET]
+Rendering pessoas/index
+Completed in 139ms (View: 122 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#edit (for 127.0.0.1 at 2010-08-03 21:58:14) [GET]
+  Parameters: {"id"=>"4"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: create, destroy, index, and new):
+  app/controllers/pessoas_controller.rb:77:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:07:20) [GET]
+Rendering pessoas/index
+Completed in 145ms (View: 116 | 200 OK [http://localhost/pessoas]
+
+
+Processing ViagensController#index (for 127.0.0.1 at 2010-08-03 22:12:38) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:12:42) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   \t"
+                                                   ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n   "
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   \t"
+; @output_buffer.concat(( collection_select(:pessoa_id, 
+		@pessoas, 
+		:id, :nome, {:prompt => true}) ).to_s); @output_buffer.concat "\n   "
+;  end 
+@output_buffer.concat "\n   "
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   \t"
+                                                   ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <% form_tag(:action => "create", {:class => "form"}) do %>
+4:    	<%= collection_select(:pessoa_id, 
+5: 		@pessoas, 
+6: 		:id, :nome, {:prompt => true}) %>
+
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (160.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:13:03) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   "
+                                                   ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n   "
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   "
+;  end 
+@output_buffer.concat "\n   "
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+;  form_tag(:action => "create", {:class => "form"}) do ; @output_buffer.concat "\n   "
+                                                   ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <% form_tag(:action => "create", {:class => "form"}) do %>
+4:    <% end -%>
+5: 
+6:    <%= link_to 'Back', pessoas_path %>
+
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (344.0ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:13:21) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+                                                                          ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n   "
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+;  end 
+@output_buffer.concat "\n   "
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+                                                                          ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <%= form_tag(:action => "create", {:class => "form"}) do %>
+4:    <% end -%>
+5: 
+6:    <%= link_to 'Back', pessoas_path %>
+
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (149.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:13:23) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+                                                                          ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n   "
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+;  end 
+@output_buffer.concat "\n   "
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat(( form_tag(:action => "create", {:class => "form"}) do ).to_s); @output_buffer.concat "\n   "
+                                                                          ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <%= form_tag(:action => "create", {:class => "form"}) do %>
+4:    <% end -%>
+5: 
+6:    <%= link_to 'Back', pessoas_path %>
+
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (115.0ms)
+Rendered rescues/_request_and_response (6.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:14:03) [GET]
+Rendering viagens/new
+
+ActionView::TemplateError (undefined method `map' for :id:Symbol) on line #4 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <% form_tag(:action => "create") do %>
+4:    	<%= collection_select(:pessoa_id, 
+5: 		@pessoas, 
+6: 		:id, :nome, {:prompt => true}) %>
+7:    <% end -%>
+
+    app/views/viagens/new.html.erb:4
+    app/views/viagens/new.html.erb:3
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (149.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:14:19) [GET]
+Rendering viagens/new
+
+ActionView::TemplateError (undefined method `map' for :nome:Symbol) on line #4 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3:    <% form_tag(:action => "create") do %>
+4:    	<%= collection_select(:pessoa_id, 
+5: 		@pessoas, 
+6: 		:nome, :nome, {:prompt => true}) %>
+7:    <% end -%>
+
+    app/views/viagens/new.html.erb:4
+    app/views/viagens/new.html.erb:3
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:16:15) [GET]
+Rendering viagens/new
+
+ActionView::TemplateError (org.neo4j.graphdb.NotInTransactionException: No transaction found for current thread) on line #5 of app/views/viagens/new.html.erb:
+2: 
+3: 	<form action='/viagens' method='POST'>
+4: 		<select name='pessoa_id'>
+5: 			<% for pessoa in @pessoas %>
+6: 				<option name='<%=h pessoa.id%>'><%=pessoa.nome%></option>
+7: 			<% end %>
+8: 		</select>
+
+    org/neo4j/kernel/impl/persistence/PersistenceManager.java:232:in `getCurrentTransaction'
+    org/neo4j/kernel/impl/persistence/PersistenceManager.java:179:in `getReadOnlyResource'
+    org/neo4j/kernel/impl/persistence/PersistenceManager.java:67:in `loadLightNode'
+    org/neo4j/kernel/impl/core/NodeManager.java:384:in `getNodeById'
+    org/neo4j/kernel/EmbeddedGraphDbImpl.java:145:in `getNodeById'
+    org/neo4j/kernel/EmbeddedGraphDatabase.java:100:in `getNodeById'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/erb.rb:552:in `load_node'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationship.rb:21:in `other_node'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:100:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    app/views/viagens/new.html.erb:5
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (108.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:17:16) [GET]
+Rendering viagens/new
+Completed in 55ms (View: 30 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:18:47) [GET]
+Rendering viagens/new
+Completed in 64ms (View: 43 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:18:53) [GET]
+Rendering viagens/new
+Completed in 37ms (View: 20 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:19:10) [GET]
+Rendering viagens/new
+
+ActionView::TemplateError (undefined method `nome' for #<Lugar:0x4eed15c7>) on line #15 of app/views/viagens/new.html.erb:
+12: 		<p>
+13: 			Lugar: <select name='lugar_id'>
+14: 				<% for lugar in @lugares %>
+15: 					<option name='<%=h lugar.id%>'><%=lugar.nome%></option>
+16: 				<% end %>
+17: 			</select>	
+18: 		</p>
+
+    app/views/viagens/new.html.erb:15
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:100:in `each'
+    /Users/adriano/.rvm/gems/jruby-1.5.1/gems/neo4j-0.4.4/lib/neo4j/relationships/relationship_dsl.rb:140:in `each'
+    app/views/viagens/new.html.erb:14
+    app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (129.0ms)
+Rendered rescues/_request_and_response (9.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:19:19) [GET]
+Rendering viagens/new
+Completed in 35ms (View: 16 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:19:27) [POST]
+  Parameters: {"pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing ViagensController#index (for 127.0.0.1 at 2010-08-03 22:20:24) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-03 22:20:27) [GET]
+
+ActionController::RoutingError (No route matches "/viagensnew" with {:method=>:get}):
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:20:31) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat((form_tag :action=>'create', :method=>'post' do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+                                                                        ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n\t"
+
+; @output_buffer.concat((form_tag :action=>'create', :method=>'post' do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+
+
+;  for pessoa in @pessoas ; @output_buffer.concat "\n\t\t\t\t<option name='"
+; @output_buffer.concat((h pessoa.id).to_s); @output_buffer.concat "'>"; @output_buffer.concat((pessoa.nome).to_s); @output_buffer.concat "</option>\n\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t</select>\n\t\t</p>\n\t\t\n\t\t<p>\n\t\t\tLugar: <select name='lugar_id'>\n\t\t\t\t"
+
+
+
+
+
+;  for lugar in @lugares ; @output_buffer.concat "\n\t\t\t\t\t<option name='"
+; @output_buffer.concat((h lugar.id).to_s); @output_buffer.concat "'>"; @output_buffer.concat((lugar.cidade).to_s); @output_buffer.concat "</option>\n\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t</select>\t\n\t\t</p>\n\t\t\n\t\t<p>\n\t\t\t<input type=\"submit\" value=\"Gravar\">\n\t\t</p>\n   "
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n   "
+
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:638:in `run_before_filters'
+/Users/adriano/Documents/projects/rails/viagens/app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/callbacks.rb:178:in `evaluate_method'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:186:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:635:in `run_before_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:615:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat((form_tag :action=>'create', :method=>'post' do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+                                                                        ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3: 	<%=form_tag :action=>'create', :method=>'post' do %>
+4: 		<p>
+5: 		Pessoa: <select name='pessoa_id'>
+6: 			<% for pessoa in @pessoas %>
+
+    app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (4.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:20:50) [GET]
+Rendering viagens/new
+ERROR: compiling _run_erb_app47views47viagens47new46html46erb RAISED /Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat((form_tag do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+                                     ^
+Function body:           def _run_erb_app47views47viagens47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>New Viagem</h1>\n\n\t"
+
+; @output_buffer.concat((form_tag do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+
+
+;  for pessoa in @pessoas ; @output_buffer.concat "\n\t\t\t\t<option name='"
+; @output_buffer.concat((h pessoa.id).to_s); @output_buffer.concat "'>"; @output_buffer.concat((pessoa.nome).to_s); @output_buffer.concat "</option>\n\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t</select>\n\t\t</p>\n\t\t\n\t\t<p>\n\t\t\tLugar: <select name='lugar_id'>\n\t\t\t\t"
+
+
+
+
+
+;  for lugar in @lugares ; @output_buffer.concat "\n\t\t\t\t\t<option name='"
+; @output_buffer.concat((h lugar.id).to_s); @output_buffer.concat "'>"; @output_buffer.concat((lugar.cidade).to_s); @output_buffer.concat "</option>\n\t\t\t\t"
+;  end ; @output_buffer.concat "\n\t\t\t</select>\t\n\t\t</p>\n\t\t\n\t\t<p>\n\t\t\t<input type=\"submit\" value=\"Gravar\">\n\t\t</p>\n   "
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n   "
+
+; @output_buffer.concat(( link_to 'Back', pessoas_path ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `module_eval'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:77:in `compile!'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:638:in `run_before_filters'
+/Users/adriano/Documents/projects/rails/viagens/app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/callbacks.rb:178:in `evaluate_method'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:186:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:635:in `run_before_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:615:in `call_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_with_rescue'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action_with_flash'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process_with_filters'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:48:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:111
+/Users/adriano/.rvm/gems/jruby-1.5.1/gems/rails-2.3.5/lib/commands/server.rb:31:in `require'
+/Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (/Users/adriano/Documents/projects/rails/viagens/app/views/viagens/new.html.erb:3: syntax error, unexpected tRPAREN
+
+; @output_buffer.concat((form_tag do ).to_s); @output_buffer.concat "\n\t\t<p>\n\t\tPessoa: <select name='pessoa_id'>\n\t\t\t"
+                                     ^) on line #3 of app/views/viagens/new.html.erb:
+1: <h1>New Viagem</h1>
+2: 
+3: 	<%=form_tag do %>
+4: 		<p>
+5: 		Pessoa: <select name='pessoa_id'>
+6: 			<% for pessoa in @pessoas %>
+
+    app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (72.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:23:31) [GET]
+Rendering viagens/new
+Completed in 58ms (View: 33 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:23:40) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NoMethodError (undefined method `load_node' for Pessoa:Class):
+  app/controllers/viagens_controller.rb:10:in `create'
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:24:20) [GET]
+Rendering viagens/new
+Completed in 60ms (View: 42 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:24:22) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NameError (undefined local variable or method `pessoa' for #<ViagensController:0x5cf6930>):
+  app/controllers/viagens_controller.rb:12:in `create'
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#index (for 127.0.0.1 at 2010-08-03 22:24:31) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:24:34) [GET]
+Rendering viagens/new
+Completed in 29ms (View: 13 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:24:37) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NoMethodError (undefined method `viajou_para' for #<#<Class:01x32dc51c8>:0x75e648bd>):
+  app/controllers/viagens_controller.rb:12:in `create'
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:25:18) [GET]
+Rendering viagens/new
+Completed in 30ms (View: 11 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:25:19) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NoMethodError (undefined method `viajou_para' for #<#<Class:01x32dc51c8>:0x2081f451>):
+  app/controllers/viagens_controller.rb:12:in `create'
+  app/controllers/viagens_controller.rb:20:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#index (for 127.0.0.1 at 2010-08-03 22:26:48) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: create and new):
+  app/controllers/viagens_controller.rb:21:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:26:51) [GET]
+Rendering viagens/new
+Completed in 32ms (View: 12 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:26:53) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NameError (undefined local variable or method `pessoa' for #<ViagensController:0x5c4ef185>):
+  app/controllers/viagens_controller.rb:12:in `create'
+  app/controllers/viagens_controller.rb:21:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:27:30) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NoMethodError (undefined method `nome' for #<#<Class:01x32dc51c8>:0x6a75863f>):
+  app/controllers/viagens_controller.rb:12:in `create'
+  app/controllers/viagens_controller.rb:21:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:28:06) [GET]
+Rendering viagens/new
+Completed in 105ms (View: 18 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:28:07) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"David Paniz", "lugar_id"=>"Natal"}
+
+NoMethodError (undefined method `viajou_para' for #<#<Class:01x32dc51c8>:0x6f6a719e>):
+  app/controllers/viagens_controller.rb:13:in `create'
+  app/controllers/viagens_controller.rb:21:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (8.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:28:40) [GET]
+Rendering viagens/new
+Completed in 56ms (View: 32 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:28:41) [GET]
+Rendering viagens/new
+Completed in 35ms (View: 19 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:28:41) [GET]
+Rendering viagens/new
+Completed in 50ms (View: 20 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:28:43) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"4232", "lugar_id"=>"4236"}
+
+NoMethodError (undefined method `viajou_para' for nil:NilClass):
+  app/controllers/viagens_controller.rb:13:in `create'
+  app/controllers/viagens_controller.rb:21:in `neo4j_tx'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (79.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:29:54) [GET]
+Rendering pessoas/index
+Completed in 56ms (View: 32 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:29:58) [GET]
+Rendering pessoas/index
+Completed in 101ms (View: 81 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:29:59) [GET]
+Rendering pessoas/index
+Completed in 60ms (View: 44 | 200 OK [http://localhost/pessoas]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:30:22) [GET]
+Rendering viagens/new
+Completed in 32ms (View: 17 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:30:29) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"4", "lugar_id"=>"3"}
+Redirected to http://localhost:3000/pessoas
+Completed in 109ms | 302 Found [http://localhost/viagens]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:30:29) [GET]
+Rendering pessoas/index
+Completed in 72ms (View: 24 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:30:31) [GET]
+Rendering pessoas/index
+Completed in 85ms (View: 54 | 200 OK [http://localhost/pessoas]
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:35:07) [GET]
+Rendering viagens/new
+Completed in 74ms (View: 44 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:35:09) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"4", "lugar_id"=>"3"}
+Redirected to http://localhost:3000/pessoas
+Completed in 25ms | 302 Found [http://localhost/viagens]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:35:09) [GET]
+Rendering pessoas/index
+Completed in 46ms (View: 27 | 200 OK [http://localhost/pessoas]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2010-08-03 22:35:36) [GET]
+
+SyntaxError (/Users/adriano/Documents/projects/rails/viagens/app/controllers/viagens_controller.rb:12: syntax error, unexpected tRBRACK
+
+    puts "Ligando: #{@pessoa.nome]} com #{@lugar.cidade}"
+                                 ^):
+  app/controllers/viagens_controller.rb:380
+  app/controllers/viagens_controller.rb:380:in `load'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/adriano/.rvm/rubies/jruby-1.5.1/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (67.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ViagensController#new (for 127.0.0.1 at 2010-08-03 22:35:43) [GET]
+Rendering viagens/new
+Completed in 40ms (View: 23 | 200 OK [http://localhost/viagens/new]
+
+
+Processing ViagensController#create (for 127.0.0.1 at 2010-08-03 22:35:44) [POST]
+  Parameters: {"authenticity_token"=>"jx/BATEd/fHmRp9QU4BvCOrgBrPaaWlvJUD4g26a5V8=", "pessoa_id"=>"4", "lugar_id"=>"3"}
+Redirected to http://localhost:3000/pessoas
+Completed in 36ms | 302 Found [http://localhost/viagens]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:35:44) [GET]
+Rendering pessoas/index
+Completed in 38ms (View: 22 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:37:58) [GET]
+Rendering pessoas/index
+Completed in 69ms (View: 54 | 200 OK [http://localhost/pessoas]
+
+
+Processing PessoasController#index (for 127.0.0.1 at 2010-08-03 22:38:11) [GET]
+Rendering pessoas/index
+Completed in 125ms (View: 92 | 200 OK [http://localhost/pessoas]
